@@ -1,18 +1,52 @@
 @charset "UTF-8";
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.name, h1, .h1 {
+  font-family: "Caveat", cursive;
+}
+
+.bg-image {
+  background-image: url("../img/patron-fondo.png");
+  background-repeat: repeat;
+  background-size: cover;
+}
+
 .btn-secondary {
   background-color: #fccac7;
 }
 
-p, h1, .h1, h2, .h2, h3, .h3, h5, .h5, h6, .h6, .navbar-text {
-  color: #443311;
+.scale {
+  transition: transform 1s;
+}
+.scale:hover, .scale:focus {
+  transform: scale(1.1);
+}
+
+.nav-link {
+  font-weight: lighter;
+}
+.nav-link:hover, .nav-link:focus {
+  transition: transform 1s;
+  opacity: 1;
+  font-weight: bold;
+}
+.nav-link:hover:hover, .nav-link:hover:focus, .nav-link:focus:hover, .nav-link:focus:focus {
+  transform: scale(1.1);
+}
+
+.logo-footer {
+  height: 7vh;
+  transition: transform 1s;
+}
+.logo-footer:hover, .logo-footer:focus {
+  transform: translateY(-0.7em);
 }
 
 .logo-contacto {
   height: 10vh;
-}
-
-h1, .h1 {
-  font-family: "Caveat", cursive;
 }
 
 .img-home {
@@ -22,35 +56,6 @@ h1, .h1 {
 .img-30 {
   height: 30vh;
   width: auto;
-}
-
-iframe {
-  width: 30em;
-}
-
-.scale {
-  transition: transform 1s;
-}
-
-.scale:hover {
-  transform: scale(1.1);
-}
-
-a:hover {
-  font-weight: bold;
-}
-
-.logo-footer {
-  height: 5vh;
-  transition: transform 1s;
-}
-
-.logo-footer:hover {
-  transform: translateY(-0.7em);
-}
-
-.bg-image {
-  background-image: url("https://i.postimg.cc/PrGGkyKK/patron-fondo.jpg");
 }
 
 /*!
