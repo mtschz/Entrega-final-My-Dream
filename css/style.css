@@ -4,12 +4,12 @@ body, html {
   margin: 0;
 }
 
-.name, h1, .h1 {
+.title, h1, .h1 {
   font-family: "Caveat", cursive;
 }
 
 .bg-image {
-  background-image: url("../img/patron-fondo.png");
+  background-image: url("../img/patron-fondo.jpg");
   background-repeat: repeat;
   background-size: cover;
 }
