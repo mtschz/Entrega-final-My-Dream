@@ -2,11 +2,14 @@ body, html {
     height:100%;
     margin:0;
 }
-.title, h1 {
+.name, h1 {
     font-family: $name-font;
 }
 .bg-image {
     background-image: url('../img/patron-fondo.jpg');
     background-repeat: repeat;
     background-size: cover;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    color:$dark;
 }
