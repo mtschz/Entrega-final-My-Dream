@@ -11,15 +11,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/9c/e9/ac/9ce9ac062929293249be9c342a2c5479.png">
-    <meta name="keywords" content="Uruguay, Taller, Costura, Confección, Prendas, Reparación, Clases, Sastrería.">
-    <meta name="description" content="¡Bienvenido al taller de costura My Dream! Ofrecemos confección y reparación de prendas de alta calidad, así como clases de costura para todos los niveles. Contáctanos para obtener más información.">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.png">
+    <meta name="keywords" content="Uruguay, Costura, Confección, Servicios, Reparación, Alteración, Producción">
+    <meta name="description" content="Ofrecemos confección y reparación de prendas de alta calidad, así como servicios personalizados para crear prendas únicas. Contáctanos ahora para más información.">
     <title>Taller My Dream | Home</title>
 </head>
 <body>
     <div class="conteiner-fluid g-0">
         <div class="bg-image">
-            <!--LOGO-->
+            <!--LOGO + HEADER-->
             <header class="conteiner bg-primary g-0">
                 <div class="row text-center g-0">
                     <div class="col-lg-5 col-md-4 col-3"></div>
@@ -69,8 +71,8 @@
                 </div>
                 <!--SERVICIOS-->
                 <div class="row g-0 justify-content-around">
-                    <div class="card col-10 col-md-3 m-3 scale">
-                        <img src="../img/botones.jpg" alt="Persona cosiendo un tul rosado" class="card-img-top">
+                    <div class="card col-10 col-md-3 m-3 scale" data-aos="flip-left">
+                        <img src="../img/botones.jpg" alt="Botones" class="card-img-top">
                         <div class="card-body">
                             <h4 class="card-title">Reparaciones</h4>
                             <p class="card-text d-inline d-xl-none">
@@ -81,8 +83,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="card col-10 col-md-3 m-3 scale">
-                        <img src="../img/chica-cosiendo.jpg" alt="Persona cosiendo un tul rosado" class="card-img-top">
+                    <div class="card col-10 col-md-3 m-3 scale" data-aos="flip-left">
+                        <img src="../img/chica-cosiendo.jpg" alt="Chica cosiendo" class="card-img-top">
                         <div class="card-body">
                             <h4 class="card-title">Alteraciones</h4>
                             <p class="card-text d-inline d-xl-none">
@@ -92,8 +94,8 @@
                                 Podemos acortar o alargar la prenda para que te sientas más cómodo con ellas. También podemos añadir parches o bolsillos. Ofrecemos el servicio de sublimaciones para personalizar tus prendas con tu diseño favorito.                            </p>
                         </div>
                     </div>
-                    <div class="card col-10 col-md-3 m-3 scale">
-                        <img src="../img/vestido-de-novia Cropped.jpg" alt="Persona cosiendo un tul rosado" class="card-img-top">
+                    <div class="card col-10 col-md-3 m-3 scale" data-aos="flip-left">
+                        <img src="../img/vestido-de-novia.jpg" alt="Vestido blanco de boda" class="card-img-top">
                         <div class="card-body">
                             <h4 class="card-title">Producción</h4>
                             <p class="card-text d-inline d-xl-none">
@@ -145,11 +147,12 @@
                       </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </footer>
+                </footer>
+            </div>
         </div>
-    </div>
+    <script>
+        AOS.init();
+     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

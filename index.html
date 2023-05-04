@@ -12,8 +12,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/9c/e9/ac/9ce9ac062929293249be9c342a2c5479.png">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <meta name="keywords" content="Uruguay, Taller, Costura, Confección, Prendas, Reparación, Clases, Sastrería.">
     <meta name="description" content="¡Bienvenido al taller de costura My Dream! Ofrecemos confección y reparación de prendas de alta calidad, así como clases de costura para todos los niveles. Contáctanos para obtener más información.">
     <title>Taller My Dream | Home</title>
@@ -21,7 +23,7 @@
 <body>
     <div class="conteiner-fluid g-0">
         <div class="bg-image">
-            <!--LOGO-->
+            <!--HEADER + LOGO-->
             <header class="conteiner bg-primary g-0">
                 <div class="row text-center g-0">
                     <div class="col-lg-5 col-md-4 col-3"></div>
@@ -31,7 +33,6 @@
                     <div class="col-lg-5 col-md-4 col-3"></div>
                 </div>
             </header>
-
             <!--NAVBAR-->
             <nav class="shadow-sm p-3 navbar navbar-expand-lg navbar-dark bg-secondary mb-3">
                 <div class="container-fluid">
@@ -66,30 +67,32 @@
       <main class="conteiner g-0">
         <div class="row g-0">
           <div class="col-12 bg-primary text-center mb-3">
-            <h1>Inicio</h1>
-            <p class="my-0">¡Bienvenido al taller de costura My Dream!</p>
+            <!--TÍTULO-->
+            <h1 class="text-dark">Inicio</h1>
+            <p class="my-0 text-dark">¡Bienvenido al taller de costura My Dream!</p>
             <p class="d-none d-md-block mt-0 pb-2">Ofrecemos servicios de sastrería de alta calidad para ayudarte a lograr el ajuste y estilo perfecto.</p>
           </div>
         </div>
         <div class="row g-0">
           <div class="col-0 col-md-1"></div>
           <div class="col-12 col-md-10">
+            <!--CARROUSEL-->
             <div id="carouselExampleFade" class="carousel slide carousel-fade w-100 mx-auto d-block mb-3">
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="img/carousel/maquina-de-coser.jpg" class="d-block w-100" alt="Máquina de coser">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/carousel/ropa-colgada.jpg" class="d-block w-100" alt="...">
+                  <img src="img/carousel/ropa-colgada.jpg" class="d-block w-100" alt="Remeras de diferentes colores en un ropero">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/carousel/hilos.jpg" class="d-block w-100" alt="...">
+                  <img src="img/carousel/hilos.jpg" class="d-block w-100" alt="Hilos de diversos colores">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/carousel/ropa-en-perchas.jpg" class="d-block w-100" alt="...">
+                  <img src="img/carousel/ropa-en-perchas.jpg" class="d-block w-100" alt="Mujer mirando ropa">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/carousel/mueble-taller.jpg" class="d-block w-100" alt="...">
+                  <img src="img/carousel/mueble-taller.jpg" class="d-block w-100" alt="Cajón con hilos">
                 </div>
               </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -106,7 +109,7 @@
         </div>
 
       <div class="conteiner">
-        <div class="row bg-primary g-0 h-50">
+        <div class="row bg-primary g-0 h-50" data-aos="fade-up">
           <div class="col-12 col-xl-5">
             <img src="img/maquina-de-coser.jpg" alt="Persona cosiendo un retazo de tela azul" class="img-home img-fluid">
           </div>
@@ -114,16 +117,17 @@
             <p class="fs-4 p-3 ps-md-3">Si tienes prendas que  necesitan reparaciones, ajustes o modificaciones, estás en el lugar indicado. Tenemos años de experiencia y capacitacion en técnicas de costura, patrones y alteraciones para que puedas lucir tus prendas como si fueran nuevas. </p>
           </div>
         </div>
-        <div class="row my-3 bg-secondary g-0 flex-wrap-reverse">
+        <div class="row my-3 bg-secondary g-0 flex-wrap-reverse" data-aos="fade-up">
           <div class="d-flex align-items-center col-12 col-xl-7">
             <p class="fs-4 text-start p-3 pe-md-3">Si tienes alguna pregunta sobre nuestros servicios o estás interesado en programar una consulta, no dudes en ponerte en contacto con nosotros. Estamos ansiosos por trabajar contigo y ayudarte a hacer que tus prendas favoritas sean parte de tu armario por muchos años más.</p>
           </div>
           <div class="col-12 col-xl-5">
-            <img src="https://i.postimg.cc/50GhySJ4/hilos.jpg" alt="Colección de hilos" class="img-home img-fluid float-end">
+            <img src="img/coleccion-de-hilos.jpg" alt="Colección de hilos" class="img-home img-fluid float-end">
           </div>
         </div>
       </div>
       </main>
+      <!--FOOTER-->
       <footer class="conteiner-fluid bg-primary g-0 pb-3">
         <div class="row justify-content-center pb-3 g-0">
           <div class="col-12 pb-3">
@@ -163,8 +167,9 @@
           </div>
         </div>
       </footer>
-      </div>
-      </div>
+      <script>
+         AOS.init();
+      </script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
